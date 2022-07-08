@@ -1,0 +1,11 @@
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE IF NOT EXISTS "response" (
+"index" INTEGER,
+  "Name" TEXT,
+  "Category" TEXT,
+  "Review Count" REAL,
+  "Rating" REAL,
+  "Location" TEXT,
+  "API" TEXT
+);
+CREATE INDEX "ix_response_index"ON "response" ("index");
